@@ -86,7 +86,7 @@ class AuthForm extends Component {
                                         name="profileImageUrl"
                                         onChange={this.handleChange}
                                         value={profileImageUrl}
-                                        type="password"
+                                        type="text"
                                     />
                                 </div>
                             )}
