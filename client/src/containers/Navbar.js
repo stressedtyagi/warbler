@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { logout } from "../store/actions/auth";
-import Logo from "../images/warbler-logo.png";
+import Logo from "../images/logo-new.png";
 
 class Navbar extends Component {
     logout = (e) => {
@@ -16,6 +16,7 @@ class Navbar extends Component {
                     <div className="navber-header">
                         <Link to="/" className="navbar-brand">
                             <img src={Logo} alt="warbler home"></img>
+                            Warbler
                         </Link>
                     </div>
                     {this.props.currentUser.inAuthenticated ? (
