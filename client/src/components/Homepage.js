@@ -11,6 +11,23 @@ const Homepage = ({ currentUser }) => {
                 <Link to="/signup" className="btn btn-primary btn-space">
                     Sign Up here
                 </Link>
+
+                <footer class="footer">
+                    <a
+                        href="https://www.linkedin.com/in/divyanshutyagi/"
+                        target="_blank"
+                    >
+                        Made with <span class="icon-heart">💖</span> by
+                        Divyanshu Tyagi
+                    </a>
+                    &nbsp;:{" "}
+                    <a
+                        href="https://github.com/creatorgaming/warbler"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github"></i>
+                    </a>
+                </footer>
             </div>
         );
     }
